@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Futura Md Bt';
+    src: url('../fontes/FuturaMediumBT.ttf') format(truetype);
+}
+@font-face {
+    font-family: 'Futura Bold Bt';
+    src: url('../fontes/FuturaBoldBT.ttf') format(truetype);
+}
+
+:root {
+    --azul: #004a7f;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilo do header */
+header {
+    height: 25vh;
+}
+header img {
+    display: inline-block;
+    position: absolute;
+    width: 55vw;
+    top: 1%;
+    left: 1%;
+}
+header div#contato {
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    top: 3%;
+}
+header div#contato p {
+    font-family: 'Futura Bold Bt';
+    color: var(--azul);
+    font-size: 0.9em;
+    text-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.200);
+}
+header div#menu {
+    position: relative;
+    display: block;
+    background-color: var(--azul);
+    height: 10vh;
+    top: 60%;
+    text-align: center;
+}
+header div#menu p {
+    position: relative;
+    display: inline-block;
+    font-family: 'Futura Md Bt';
+    font-size: 1.0em;
+    color: white;
+    padding: 2%;
+    top: 25%;
+}
+
+/* Seção principal */
+
+/* Empresa */
+
+main div#empresa {
+    border-bottom: 2px solid var(--azul);
+}
+main div#empresa h2 {
+    position: absolute;
+    font-family: 'Futura Bold Bt';
+    z-index: 2;
+    left: 7%;
+    transform: translateY(50%);
+    color: var(--azul);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+main div#empresa img#solucoes {
+    width: 100vw;
+}
+main div#empresa p {
+    padding: 10px;
+    font-family: 'Futura Md Bt';
+    color: var(--azul);
+}
+/* Produtos */
+
+main div#produtos h2 {
+    font-family: 'Futura Bold Bt';
+    padding: 10px;
+    color: var(--azul);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+/* Clientes */
+
+main div#clientes h2 {
+    font-family: 'Futura Bold Bt';
+    padding: 10px;
+    color: var(--azul);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+/* Contato */
+
+main div#contato h2 {
+    font-family: 'Futura Bold Bt';
+    padding: 10px;
+    color: var(--azul);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
