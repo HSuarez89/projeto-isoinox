@@ -16,6 +16,9 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    width: 100vw;
+}
 
 /* Estilo do header */
 header {
@@ -84,32 +87,90 @@ main div#empresa p {
 
 /* Produtos */
 
+main div#produtos {
+    background-image: url('../imagens/fundoprodutos.png');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+}
 main div#produtos h2 {
     font-family: 'Futura Bold Bt';
     padding: 10px;
     color: var(--azul);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+    z-index: 1;
 }
 main div#produtos p {
     font-family: 'Futura Md Bt';
     color: var(--azul);
     padding: 0px 10px;
+    z-index: 1;
 }
-main div#produtos img {
+main div#produtos img#produto1 {
+    position: relative;
+    transform: translateY(10%);
     width: 100vw;
     padding: 20px 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.5s;
 }
-main div#produtos p.catalogo {
-    text-align: center;
-    padding-bottom: 30px;
+main div#produtos img#produto2 {
+    position: absolute;
+    transform: translateY(10%);
+    width: 100vw;
+    padding: 20px 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.5s;
 }
-main div#produtos a#catalogo {
+main div#produtos img#produto3 {
+    position: absolute;
+    transform: translateY(10%);
+    width: 100vw;
+    padding: 20px 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.5s;
+}
+main div#produtos img#produto4 {
+    position: absolute;
+    transform: translateY(10%);
+    width: 100vw;
+    padding: 20px 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.5s;
+}
+main div#produtos img#produto5 {
+    position: absolute;
+    transform: translateY(10%);
+    width: 100vw;
+    padding: 20px 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.5s;
+}
+main div#produtos img#folderpdf {
     display: block;
-    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 50px;
+    left: 50%;
+    
 }
-main div#produtos a#catalogo img {
-    width: 15vw;
-    padding: 0px;
+main div#produtos p#download {
+    font-family: 'Futura Md Bt';
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--azul);
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    
+    z-index: 1;
 }
 main div#produtos {
     border-bottom: 2px solid var(--azul);
