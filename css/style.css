@@ -54,7 +54,7 @@ header div#menu p {
     position: relative;
     display: inline-block;
     font-family: 'Futura Md Bt';
-    font-size: 1.0em;
+    font-size: 1.2em;
     color: white;
     padding: 2%;
     top: 25%;
@@ -177,12 +177,44 @@ main div#produtos {
 /* Clientes */
 
 main div#clientes h2 {
+    position: absolute;
     font-family: 'Futura Bold Bt';
     padding: 10px;
     color: var(--azul);
 }
 main div#clientes p {
+    position: absolute;
+    transform: translateY(40px);
     font-family: 'Futura Md Bt';
     color: var(--azul);
     padding: 0px 10px;
+}
+main div#clientes img#clientes {
+    width: 100vw;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: var(--azul);
+    padding: 20px;
+}
+footer p {
+    font-family: 'Futura Md Bt';
+    color: white;
+}
+footer #localizacao {
+    width: 90vw;
+    padding: 20px 0px;
+}
+footer #social {
+    width: 20px;
+    transform: translateY(35%);
+    padding: 10px 0px;
+}
+footer #logo {
+    display: block;
+    padding-top: 30px;
+    width: 70vw;
+    margin: auto;
 }

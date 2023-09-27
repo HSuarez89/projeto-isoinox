@@ -43,3 +43,19 @@ function catalogoDownload(){
     link.click()
 }
 
+// Link Instagram
+
+var insta = document.getElementById('insta')
+insta.addEventListener('click', direcionaInstagram)
+
+function direcionaInstagram(){
+    var linkInsta = document.createElement('a')
+    linkInsta.href = 'https://www.instagram.com/isoinox/'
+    linkInsta.target = '_blank'
+    linkInsta.click()
+}
+
+// Rolagem da página
+
+
+
