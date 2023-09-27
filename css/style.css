@@ -64,10 +64,10 @@ header div#menu p {
 
 /* Empresa */
 
-main div#empresa {
+main div#secaoempresa {
     border-bottom: 2px solid var(--azul);
 }
-main div#empresa h2 {
+main div#secaoempresa h2 {
     position: absolute;
     font-family: 'Futura Bold Bt';
     z-index: 2;
@@ -75,10 +75,10 @@ main div#empresa h2 {
     transform: translateY(50%);
     color: var(--azul);
 }
-main div#empresa img#solucoes {
+main div#secaoempresa img#solucoes {
     width: 100vw;
 }
-main div#empresa p {
+main div#secaoempresa p {
     padding: 10px;
     font-family: 'Futura Md Bt';
     color: var(--azul);
@@ -86,25 +86,25 @@ main div#empresa p {
 
 /* Produtos */
 
-main div#produtos {
+main div#secaoprodutos {
     background-image: url('../imagens/fundoprodutos.png');
     background-size: cover;
     background-position: center;
     padding-bottom: 20px;
 }
-main div#produtos h2 {
+main div#secaoprodutos h2 {
     font-family: 'Futura Bold Bt';
     padding: 10px;
     color: var(--azul);
     z-index: 1;
 }
-main div#produtos p {
+main div#secaoprodutos p {
     font-family: 'Futura Md Bt';
     color: var(--azul);
     padding: 0px 10px;
     z-index: 1;
 }
-main div#produtos img#produto1 {
+main div#secaoprodutos img#produto1 {
     position: relative;
     transform: translateY(10%);
     width: 100vw;
@@ -113,7 +113,7 @@ main div#produtos img#produto1 {
     opacity: 0;
     transition: 0.5s;
 }
-main div#produtos img#produto2 {
+main div#secaoprodutos img#produto2 {
     position: absolute;
     transform: translateY(10%);
     width: 100vw;
@@ -122,7 +122,7 @@ main div#produtos img#produto2 {
     opacity: 0;
     transition: 0.5s;
 }
-main div#produtos img#produto3 {
+main div#secaoprodutos img#produto3 {
     position: absolute;
     transform: translateY(10%);
     width: 100vw;
@@ -131,7 +131,7 @@ main div#produtos img#produto3 {
     opacity: 0;
     transition: 0.5s;
 }
-main div#produtos img#produto4 {
+main div#secaoprodutos img#produto4 {
     position: absolute;
     transform: translateY(10%);
     width: 100vw;
@@ -140,7 +140,7 @@ main div#produtos img#produto4 {
     opacity: 0;
     transition: 0.5s;
 }
-main div#produtos img#produto5 {
+main div#secaoprodutos img#produto5 {
     position: absolute;
     transform: translateY(10%);
     width: 100vw;
@@ -149,7 +149,7 @@ main div#produtos img#produto5 {
     opacity: 0;
     transition: 0.5s;
 }
-main div#produtos img#folderpdf {
+main div#secaoprodutos img#folderpdf {
     display: block;
     margin: auto;
     margin-top: 50px;
@@ -157,7 +157,7 @@ main div#produtos img#folderpdf {
     left: 50%;
     
 }
-main div#produtos p#download {
+main div#secaoprodutos p#download {
     font-family: 'Futura Md Bt';
     display: inline-block;
     position: relative;
@@ -170,26 +170,26 @@ main div#produtos p#download {
     
     z-index: 1;
 }
-main div#produtos {
+main div#secaoprodutos {
     border-bottom: 2px solid var(--azul);
 }
 
 /* Clientes */
 
-main div#clientes h2 {
+main div#secaoclientes h2 {
     position: absolute;
     font-family: 'Futura Bold Bt';
     padding: 10px;
     color: var(--azul);
 }
-main div#clientes p {
+main div#secaoclientes p {
     position: absolute;
     transform: translateY(40px);
     font-family: 'Futura Md Bt';
     color: var(--azul);
     padding: 0px 10px;
 }
-main div#clientes img#clientes {
+main div#secaoclientes img#clientes {
     width: 100vw;
 }
 

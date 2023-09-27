@@ -57,5 +57,18 @@ function direcionaInstagram(){
 
 // Rolagem da página
 
+var clique = document.querySelectorAll('.menu')
+clique.forEach (item =>{
+    item.addEventListener('click', rolarPagina)
+})
+
+function rolarPagina(e){
+    linkAcionado = e.target
+    idLink = linkAcionado.getAttribute('id')
+    idSecao = document.getElementById('secao' + idLink)
+    var distanciaTopo = idSecao.offsetTop
+    window.scrollTo({top: distanciaTopo, behavior: 'smooth'})
+}
+
 
 
