@@ -27,20 +27,7 @@ header {
 header img {
     display: inline-block;
     position: absolute;
-    width: 55vw;
-    top: 1%;
-    left: 1%;
-}
-header div#contato {
-    display: inline-block;
-    position: absolute;
-    right: 8%;
-    top: 3%;
-}
-header div#contato p {
-    font-family: 'Futura Bold Bt';
-    color: var(--azul);
-    font-size: 0.9em;
+    width: 100vw;
 }
 header div#menu {
     position: relative;
