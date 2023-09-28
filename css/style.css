@@ -25,12 +25,9 @@ header {
     height: 25vh;
 }
 header img {
-    display: inline-block;
-    position: absolute;
     width: 100vw;
 }
 header div#menu {
-    position: relative;
     display: block;
     background-color: var(--azul);
     height: 10vh;
