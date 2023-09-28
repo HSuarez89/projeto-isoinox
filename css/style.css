@@ -23,7 +23,7 @@ body {
 /* Estilo do header */
 
 header img {
-    width: 100vw;
+    width: 100%;
 }
 header div#menu {
     text-align: center;
@@ -55,13 +55,14 @@ main div#secaoempresa h2 {
     transform: translateY(50%);
     color: var(--azul);
 }
-main div#secaoempresa img#solucoes {
-    width: 100vw;
+main div#secaoempresa img {
+    width: 100%;
 }
 main div#secaoempresa p {
     padding: 10px;
     font-family: 'Futura Md Bt';
     color: var(--azul);
+    background-color: white;
 }
 
 /* Produtos */
@@ -87,7 +88,7 @@ main div#secaoprodutos p {
 main div#secaoprodutos img#produto1 {
     position: relative;
     transform: translateY(10%);
-    width: 100vw;
+    width: 100%;
     padding: 20px 0px;
     left: 0px;
     opacity: 0;
@@ -96,7 +97,7 @@ main div#secaoprodutos img#produto1 {
 main div#secaoprodutos img#produto2 {
     position: absolute;
     transform: translateY(10%);
-    width: 100vw;
+    width: 100%;
     padding: 20px 0px;
     left: 0px;
     opacity: 0;
@@ -105,7 +106,7 @@ main div#secaoprodutos img#produto2 {
 main div#secaoprodutos img#produto3 {
     position: absolute;
     transform: translateY(10%);
-    width: 100vw;
+    width: 100%;
     padding: 20px 0px;
     left: 0px;
     opacity: 0;
@@ -114,7 +115,7 @@ main div#secaoprodutos img#produto3 {
 main div#secaoprodutos img#produto4 {
     position: absolute;
     transform: translateY(10%);
-    width: 100vw;
+    width: 100%;
     padding: 20px 0px;
     left: 0px;
     opacity: 0;
@@ -123,7 +124,7 @@ main div#secaoprodutos img#produto4 {
 main div#secaoprodutos img#produto5 {
     position: absolute;
     transform: translateY(10%);
-    width: 100vw;
+    width: 100%;
     padding: 20px 0px;
     left: 0px;
     opacity: 0;
@@ -170,7 +171,7 @@ main div#secaoclientes p {
     padding: 0px 10px;
 }
 main div#secaoclientes img#clientes {
-    width: 100vw;
+    width: 100%;
 }
 
 /* Rodapé */
@@ -184,7 +185,9 @@ footer p {
     color: white;
 }
 footer #localizacao {
-    width: 90vw;
+    display: block;
+    margin: auto;
+    width: 90%;
     padding: 20px 0px;
 }
 footer #social {
@@ -195,6 +198,6 @@ footer #social {
 footer #logo {
     display: block;
     padding-top: 30px;
-    width: 70vw;
+    width: 70%;
     margin: auto;
 }
