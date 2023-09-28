@@ -40,13 +40,14 @@
     }
     main div#secaoempresa h2 {
         position: relative;
-        display: inline-block;
+        display: inline;
         left: 0px;
         padding: 10px;
     }
     main div#secaoempresa img {
         position: relative;
         width: 50%;
+        transform: translateX(421px);
     }
     main div#secaoclientes {
         background-color: white;
