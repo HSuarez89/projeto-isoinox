@@ -21,24 +21,20 @@ body {
 }
 
 /* Estilo do header */
-header {
-    height: 25vh;
-}
+
 header img {
     width: 100vw;
 }
 header div#menu {
-    display: block;
-    background-color: var(--azul);
-    height: 10vh;
-    top: 60%;
     text-align: center;
+    background-color: var(--azul);
 }
 header div#menu p {
     position: relative;
     display: inline-block;
     font-family: 'Futura Md Bt';
     font-size: 1.2em;
+    background-color: var(--azul);
     color: white;
     padding: 2%;
     top: 25%;
