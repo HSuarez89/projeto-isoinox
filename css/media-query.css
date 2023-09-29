@@ -12,14 +12,43 @@
     body p {
         font-size: 1.0em;
     }
+    header img#contatotopo {
+        transform: translateX(45%);
+    }
     header div#menu p {
         font-size: 1.3em;
-        padding: 30px 30px;
+        padding: 20px 20px;
     }
-    main div#secaoempresa img {
-        display: block;
-        margin: auto;
-        width: 70%;
+    main div#secaoempresa div#secao1 {
+        display: flex;
+        align-items: flex-start;
+    }
+    main div#secaoempresa div#secao1 p{
+        flex: 1;
+    }
+    main div#secaoempresa div#secao1 img{
+        width: 45%;
+    }
+    main div#secaoempresa div#secao2 p{
+        position: absolute;
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        right: 0;
+    }
+    main div#secaoempresa div#secao2 img{
+        display: inline-block;
+        width: 45%;
+    }
+    main div#secaoempresa div#secao3 {
+        display: flex;
+        align-items: flex-start;
+    }
+    main div#secaoempresa div#secao3 p{
+        flex: 1;
+    }
+    main div#secaoempresa div#secao3 img{
+        width: 45%;
     }
     main div#secaoprodutos img#folderpdf {
         width: 80px;
@@ -32,48 +61,65 @@
 /* Formato para Pc */
 
 @media screen and (min-width: 993px) {
-    header {
+    body {
+        max-width: 1000px;
         margin: auto;
-        max-width: 1100px;
+        background-color: hsla(205, 100%, 25%, 0.700);
+    }
+    header{
+        max-width: 1000px;
         background-color: white;
+    }
+    header div#cabecalho img#logotopo {
+        width: 30%;
+    }
+    header div#cabecalho img#contatotopo {
+        width: 15%;
+        transform: translateX(400px);
     }
     header div#menu p:hover {
         cursor: pointer;
     }
-    body {
-        background-color: hsla(205, 100%, 25%, 0.705);
-        margin: auto;
-        max-width: 1100px;
-    }
-    main div#secaoempresa {
+    main {
+        max-width: 1000px;
         background-color: white;
     }
-    main div#secaoempresa h2 {
-        position: relative;
-        display: block;
-        left: 0px;
-        padding: 10px;
+    main div#secaoempresa div#secao1 {
+        display: flex;
+        align-items: flex-start;
     }
-    main div#secaoempresa img {
-        display: inline-block;
-        transform: translateX(100%);
-        position: relative;
-        width: 50%;
+    main div#secaoempresa div#secao1 p{
+        flex: 1;
     }
-    main div#secaoempresa p {
-        display: inline-block;
-        width: 50%;
-        transform: translateY(-450px);
+    main div#secaoempresa div#secao1 img{
+        width: 45%;
+    }
+    main div#secaoempresa div#secao2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    main div#secaoempresa div#secao2 p{
+        flex: 1;
+    }
+    main div#secaoempresa div#secao2 img{
+        width: 45%;
+    }
+    main div#secaoempresa div#secao3 {
+        display: flex;
+        align-items: flex-start;
+    }
+    main div#secaoempresa div#secao3 p{
+        flex: 1;
+    }
+    main div#secaoempresa div#secao3 img{
+        width: 45%;
     }
     main div#secaoprodutos .download:hover {
         cursor: pointer;
     }
-    main div#secaoclientes {
-        background-color: white;
-    }
     footer {
-        margin: auto;
-        max-width: 1100px;
+        max-width: 1000px;
     }
     footer p#insta:hover {
         cursor: pointer;

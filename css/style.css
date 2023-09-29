@@ -22,8 +22,18 @@ body {
 
 /* Estilo do header */
 
-header img {
-    width: 100%;
+header img#logotopo {
+    width: 50%;
+    padding: 20px;
+}
+header img#contatotopo {
+    width: 25%;
+    transform: translateX(20%);
+}
+header div#cabecalho {
+    background-image: url('../imagens/fundotopo.png');
+    background-position: center;
+    background-size: cover;
 }
 header div#menu {
     text-align: center;
@@ -46,25 +56,38 @@ header div#menu p {
 
 main div#secaoempresa {
     border-bottom: 2px solid var(--azul);
-    background-image: url('../imagens/fundo.png');
-    background-position: center;
-    background-size: cover;
 }
 main div#secaoempresa h2 {
-    position: absolute;
     font-family: 'Futura Bold Bt';
-    z-index: 2;
-    left: 7%;
-    transform: translateY(50%);
+    padding: 10px;
     color: var(--azul);
-}
-main div#secaoempresa img {
-    width: 100%;
 }
 main div#secaoempresa p {
     padding: 10px;
     font-family: 'Futura Md Bt';
     color: var(--azul);
+    text-align: justify;
+}
+main div#secaoempresa div#secao1 {
+    background-color: var(--azul);
+}
+main div#secaoempresa div#secao1 p {
+    color: white;
+}
+main div#secaoempresa div#secao1 img {
+    width: 100vw;
+}
+main div#secaoempresa div#secao2 img {
+    width: 100vw;
+}
+main div#secaoempresa div#secao3 {
+    background-color: var(--azul);
+}
+main div#secaoempresa div#secao3 p {
+    color: white;
+}
+main div#secaoempresa div#secao3 img {
+    width: 100vw;
 }
 
 /* Produtos */
