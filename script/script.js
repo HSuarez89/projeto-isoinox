@@ -11,10 +11,14 @@ window.onload = function(){
 
 function trocaProduto(id, produto){
     produto.style.opacity = 0
+    const largura = document.getElementById('produto1').width
+    const distDaEsquerda = document.getElementById('produto1').offsetLeft
     if (id < 5){
         id ++
         produto = document.getElementById('produto' + id)
+        produto.style.left = distDaEsquerda + 'px'
         produto.style.opacity = 1
+        produto.style.width = largura + 'px'
         setTimeout(function(){
             trocaProduto(id, produto)
         }, 3000)

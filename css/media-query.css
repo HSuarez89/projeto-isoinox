@@ -7,14 +7,19 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body h2 {
-        font-size: 3em;
+        font-size: 2.0em;
     }
     body p {
-        font-size: 1.5em;
+        font-size: 1.0em;
     }
     header div#menu p {
-        font-size: 2.0em;
+        font-size: 1.3em;
         padding: 30px 30px;
+    }
+    main div#secaoempresa img {
+        display: block;
+        margin: auto;
+        width: 70%;
     }
     main div#secaoprodutos img#folderpdf {
         width: 80px;
@@ -24,14 +29,19 @@
     }
 }
 
+/* Formato para Pc */
+
 @media screen and (min-width: 993px) {
     header {
         margin: auto;
         max-width: 1100px;
         background-color: white;
     }
+    header div#menu p:hover {
+        cursor: pointer;
+    }
     body {
-        background-color: #004a7f88;
+        background-color: hsla(205, 100%, 25%, 0.705);
         margin: auto;
         max-width: 1100px;
     }
@@ -40,14 +50,23 @@
     }
     main div#secaoempresa h2 {
         position: relative;
-        display: inline;
+        display: block;
         left: 0px;
         padding: 10px;
     }
     main div#secaoempresa img {
+        display: inline-block;
+        transform: translateX(100%);
         position: relative;
         width: 50%;
-        transform: translateX(421px);
+    }
+    main div#secaoempresa p {
+        display: inline-block;
+        width: 50%;
+        transform: translateY(-450px);
+    }
+    main div#secaoprodutos .download:hover {
+        cursor: pointer;
     }
     main div#secaoclientes {
         background-color: white;
@@ -55,5 +74,8 @@
     footer {
         margin: auto;
         max-width: 1100px;
+    }
+    footer p#insta:hover {
+        cursor: pointer;
     }
 }
